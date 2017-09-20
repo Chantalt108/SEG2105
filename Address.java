@@ -20,7 +20,7 @@ public class Address {
 		this.postal = postal;
 		
 		
-	}
+	} // constructors and variables
 
 	public String getStreet() {
 		return street;

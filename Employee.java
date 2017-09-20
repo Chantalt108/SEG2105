@@ -1,7 +1,7 @@
 
 public class Employee {
 	
-	private int hours ; 
+	private int hours ;   // ceate variables 
 	
 	private double rate ;
 	
@@ -51,7 +51,7 @@ public class Employee {
 	
 public static void main(String[] args) {
 	
-		Address[] listOfAddress = new Address[5];
+		Address[] listOfAddress = new Address[5];   // just do what the diagrams show
 		
 		listOfAddress [0] = new Address ("King Edward ", 800, "K1N6N5");
 		
@@ -59,7 +59,7 @@ public static void main(String[] args) {
 	
 		Employee ol =  new Employee ("Falcao ", listOfAddress );
 		
-		System.out.println("Success!");
+		System.out.println("Success!"); // Test 
 				
 		
 	}
